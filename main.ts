@@ -15,6 +15,6 @@ basic.forever(function () {
     } else if (input.isGesture(Gesture.LogoUp)) {
         radio.sendNumber(1)
     } else {
-        radio.setGroup(132)
+    	
     }
 })

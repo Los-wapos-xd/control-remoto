@@ -1,6 +1,9 @@
 input.onGesture(Gesture.LogoUp, function () {
     radio.sendNumber(1)
 })
+input.onGesture(Gesture.ScreenUp, function () {
+    radio.sendNumber(132)
+})
 input.onGesture(Gesture.TiltRight, function () {
     radio.sendNumber(3)
 })
